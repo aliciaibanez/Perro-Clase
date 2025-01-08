@@ -65,4 +65,15 @@ public class Perro
             ppp = false;
         }
     }
+
+    public void imprimirEstado ()
+    {
+        System.out.println ("Tipo de pelo: " + tipoPelo + "Edad: " + edad + " ¿PPP?:  " + (ppp ? "Verdadero" : "Falso"));
+    }
+
+        public String getEstado ()
+    {
+        return "Tipo de pelo: " + tipoPelo + "Edad: " + edad + (ppp ? "Verdadero" : "Falso");
+    }
+    
 }
