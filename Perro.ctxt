@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Perro
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Perro\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=esEdad\ esTipoPelo
+comment1.target=Perro(int,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Perro\r\n
+comment2.params=
+comment2.target=java.lang.String\ gettipoPelo()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment3.params=
+comment3.target=int\ getedad()
+comment4.params=
+comment4.target=boolean\ getppp()
+comment5.params=esTipoPelo
+comment5.target=void\ settipoPelo(java.lang.String)
+comment6.params=a\u00F1o
+comment6.target=void\ setcuantosA\u00F1osTendraEn(int)
+comment7.params=
+comment7.target=void\ setppp()
+numComments=8
