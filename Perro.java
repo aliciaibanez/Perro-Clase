@@ -11,6 +11,7 @@ public class Perro
     private int edad;
     private boolean ppp;
     private boolean tieneChip;
+    private double comidaDia;
     /**
      * Constructor for objects of class Perro
      */
@@ -20,6 +21,7 @@ public class Perro
         edad = esEdad;
         tipoPelo = esTipoPelo;
         tieneChip = true;
+        comidaDia = 2.5;
     }
 
     /**
@@ -83,5 +85,13 @@ public class Perro
     
     public void SetTieneChip (boolean esChip) {
         tieneChip=esChip;
+    }
+    
+    public double getComidasDia () {
+        return comidaDia;
+    }
+    
+    public void setComidasDia (double cuantasComidas) {
+        comidaDia=cuantasComidas;
     }
 }
