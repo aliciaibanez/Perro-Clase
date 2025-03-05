@@ -10,8 +10,7 @@ public class Perro
     private String tipoPelo;
     private int edad;
     private boolean ppp;
-    private boolean tieneChip;
-    private double comidaDia;
+
     /**
      * Constructor for objects of class Perro
      */
@@ -20,8 +19,6 @@ public class Perro
         ppp = false;
         edad = esEdad;
         tipoPelo = esTipoPelo;
-        tieneChip = true;
-        comidaDia = 2.5;
     }
 
     /**
@@ -69,7 +66,7 @@ public class Perro
         }
     }
 
-    public void imprimirEstado ()
+    public void imprimirDetalles ()
     {
         System.out.println ("Tipo de pelo: " + tipoPelo + "Edad: " + edad + " ¿PPP?:  " + (ppp ? "Verdadero" : "Falso"));
     }
@@ -79,19 +76,4 @@ public class Perro
         return "Tipo de pelo: " + tipoPelo + "Edad: " + edad + (ppp ? "Verdadero" : "Falso");
     }
     
-    public boolean getTieneChip () {
-        return tieneChip;
-    }
-    
-    public void SetTieneChip (boolean esChip) {
-        tieneChip=esChip;
-    }
-    
-    public double getComidasDia () {
-        return comidaDia;
-    }
-    
-    public void setComidasDia (double cuantasComidas) {
-        comidaDia=cuantasComidas;
-    }
 }
